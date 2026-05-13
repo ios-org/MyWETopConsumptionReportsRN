@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TopConsumptionSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Charts
+import Combine
+import CommonCrypto
+import Contacts
+import CoreText
+import Foundation
+import Network
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc public class TopConsumptionSDK : ObjectiveC.NSObject {
+  @_Concurrency.MainActor @objc public static func initiateTopReports(serviceNumber: Swift.String) -> UIKit.UIViewController
+  @_Concurrency.MainActor @objc public static func initiateConsumptionReports(subscriberId: Swift.String) -> UIKit.UIViewController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class TopConsumptionSDKBundle {
+  public static var localizedBundle: Foundation.Bundle {
+    get
+  }
+  public static let bundle: Foundation.Bundle
+  public static func registerFonts()
+  @objc deinit
+}
