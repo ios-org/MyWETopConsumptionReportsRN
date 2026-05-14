@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3tPwY9caFWOnJYzKrLzC3eJ3+U4=
+		J75CjaSLao4IURFeNIObKW2MbYs=
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0zeTez7PGG0O4j5+pRRhPcCMssE=
+		diG0SU1+3JSFGpEfo/x8neS58Xk=
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3tPwY9caFWOnJYzKrLzC3eJ3+U4=
+		J75CjaSLao4IURFeNIObKW2MbYs=
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/TopConsumptionSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4KXfA5piZKKs7AlPGBGyUy3wkic=
+		IlfpWDWluvp+TMJBMWc4s4arb7k=
 		</data>
 		<key>Rubik-Bold.ttf</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7hFJ8CndCb6Y5g+j+kp9oya62J3KazA6Pgit+WlHI1o=
+			kwIC7RfCMTYeLj/+7+dLQgcgKqefcCGUqdpSXHCAO3g=
 			</data>
 		</dict>
 		<key>Modules/TopConsumptionSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -132,14 +132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6kTzti3jIKp8E9Sz1irQPgy80GoC3lm/TsTs3sWMnA4=
+			CRtQkGbowxhP7+iBHKVhWFumNvwoYbcD76Uzf4qVDTg=
 			</data>
 		</dict>
 		<key>Modules/TopConsumptionSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7hFJ8CndCb6Y5g+j+kp9oya62J3KazA6Pgit+WlHI1o=
+			kwIC7RfCMTYeLj/+7+dLQgcgKqefcCGUqdpSXHCAO3g=
 			</data>
 		</dict>
 		<key>Modules/TopConsumptionSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIDg4GDlbrCWIyO8NvIhERWBEh7Gv/u1B1kIYHyp+Ng=
+			6sfrHt6CCUxIQdltpCz06apeD946grZjl91mGsTRi5o=
 			</data>
 		</dict>
 		<key>Rubik-Bold.ttf</key>

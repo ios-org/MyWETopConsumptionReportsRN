@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MyWETopConsumptionReportsRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyWETopConsumptionReportsRNTests.m */; };
+		043F36A62FB4F4BA004770B9 /* TopConsumptionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F36A42FB4F4B0004770B9 /* TopConsumptionSDK.xcframework */; };
+		043F36A72FB4F4BA004770B9 /* TopConsumptionSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043F36A42FB4F4B0004770B9 /* TopConsumptionSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C80B921A6F3F58F76C31292 /* libPods-MyWETopConsumptionReportsRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MyWETopConsumptionReportsRN.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		354B85CC2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */; };
 		354B85CE2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */; };
-		354B85EF2FB4E08D00BBAE11 /* TopConsumptionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354B85ED2FB4E08500BBAE11 /* TopConsumptionSDK.xcframework */; };
-		354B85F02FB4E08E00BBAE11 /* TopConsumptionSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354B85ED2FB4E08500BBAE11 /* TopConsumptionSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7699B88040F8A987B510C191 /* libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				354B85F02FB4E08E00BBAE11 /* TopConsumptionSDK.xcframework in Embed Frameworks */,
+				043F36A72FB4F4BA004770B9 /* TopConsumptionSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +48,7 @@
 		00E356EE1AD99517003FC87E /* MyWETopConsumptionReportsRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWETopConsumptionReportsRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyWETopConsumptionReportsRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWETopConsumptionReportsRNTests.m; sourceTree = "<group>"; };
+		043F36A42FB4F4B0004770B9 /* TopConsumptionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TopConsumptionSDK.xcframework; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MyWETopConsumptionReportsRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWETopConsumptionReportsRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyWETopConsumptionReportsRN/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MyWETopConsumptionReportsRN/AppDelegate.mm; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		354B85CA2FB4764800BBAE11 /* MyWETopConsumptionReportsRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWETopConsumptionReportsRN-Bridging-Header.h"; sourceTree = "<group>"; };
 		354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopConsumptionSDKBridge.swift; sourceTree = "<group>"; };
 		354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopConsumptionSDKBridge.m; sourceTree = "<group>"; };
-		354B85ED2FB4E08500BBAE11 /* TopConsumptionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TopConsumptionSDK.xcframework; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MyWETopConsumptionReportsRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWETopConsumptionReportsRN.debug.xcconfig"; path = "Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MyWETopConsumptionReportsRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWETopConsumptionReportsRN.release.xcconfig"; path = "Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.debug.xcconfig"; path = "Target Support Files/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354B85EF2FB4E08D00BBAE11 /* TopConsumptionSDK.xcframework in Frameworks */,
+				043F36A62FB4F4BA004770B9 /* TopConsumptionSDK.xcframework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-MyWETopConsumptionReportsRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +139,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				354B85ED2FB4E08500BBAE11 /* TopConsumptionSDK.xcframework */,
+				043F36A42FB4F4B0004770B9 /* TopConsumptionSDK.xcframework */,
 				354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */,
 				354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */,
 				13B07FAE1A68108700A75B9A /* MyWETopConsumptionReportsRN */,
@@ -302,9 +302,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,9 +367,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,9 +388,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN/Pods-MyWETopConsumptionReportsRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -397,9 +409,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests/Pods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -518,23 +534,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48B8G6A6B7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyWETopConsumptionReportsRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 8.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.te.wemobile;
 				PRODUCT_NAME = MyWETopConsumptionReportsRN;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyWETopConsumptionReportsRN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -546,21 +566,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48B8G6A6B7;
 				INFOPLIST_FILE = MyWETopConsumptionReportsRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 8.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.te.wemobile;
 				PRODUCT_NAME = MyWETopConsumptionReportsRN;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyWETopConsumptionReportsRN-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
