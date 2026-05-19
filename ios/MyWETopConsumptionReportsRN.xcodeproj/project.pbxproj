@@ -12,8 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		351693D62FBB307900D36167 /* TopConsumptionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351693D42FBB307100D36167 /* TopConsumptionSDK.xcframework */; };
-		351693D72FBB307900D36167 /* TopConsumptionSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 351693D42FBB307100D36167 /* TopConsumptionSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3515A84F2FBC900A00369A62 /* TopConsumptionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515A84D2FBC900100369A62 /* TopConsumptionSDK.xcframework */; };
+		3515A8502FBC900A00369A62 /* TopConsumptionSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3515A84D2FBC900100369A62 /* TopConsumptionSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		354B85CC2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */; };
 		354B85CE2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */; };
 		7699B88040F8A987B510C191 /* libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a */; };
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				351693D72FBB307900D36167 /* TopConsumptionSDK.xcframework in Embed Frameworks */,
+				3515A8502FBC900A00369A62 /* TopConsumptionSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +55,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyWETopConsumptionReportsRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyWETopConsumptionReportsRN/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyWETopConsumptionReportsRN-MyWETopConsumptionReportsRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		351693D42FBB307100D36167 /* TopConsumptionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TopConsumptionSDK.xcframework; sourceTree = "<group>"; };
+		3515A84D2FBC900100369A62 /* TopConsumptionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TopConsumptionSDK.xcframework; sourceTree = "<group>"; };
 		354B85CA2FB4764800BBAE11 /* MyWETopConsumptionReportsRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWETopConsumptionReportsRN-Bridging-Header.h"; sourceTree = "<group>"; };
 		354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopConsumptionSDKBridge.swift; sourceTree = "<group>"; };
 		354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopConsumptionSDKBridge.m; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351693D62FBB307900D36167 /* TopConsumptionSDK.xcframework in Frameworks */,
+				3515A84F2FBC900A00369A62 /* TopConsumptionSDK.xcframework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-MyWETopConsumptionReportsRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +139,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				351693D42FBB307100D36167 /* TopConsumptionSDK.xcframework */,
+				3515A84D2FBC900100369A62 /* TopConsumptionSDK.xcframework */,
 				354B85CD2FB4767F00BBAE11 /* TopConsumptionSDKBridge.m */,
 				354B85CB2FB4764A00BBAE11 /* TopConsumptionSDKBridge.swift */,
 				13B07FAE1A68108700A75B9A /* MyWETopConsumptionReportsRN */,
